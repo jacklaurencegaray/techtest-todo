@@ -1,0 +1,33 @@
+
+.add-todo-form {
+    form {
+        display: grid;
+        grid-template-columns: 4fr 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+    
+    input {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    // input:first-child {
+    //     border-top-right-radius: 0;
+    //     border-bottom-right-radius: 0;
+    // }
+
+    // input:nth-child(2) {
+    //     border-top-left-radius: 0;
+    //     border-bottom-left-radius: 0;
+    // }
+
+    input[type=submit] {
+        border: 0;
+        background-color: $blue;
+        color: $white;
+        padding: 15px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+}
